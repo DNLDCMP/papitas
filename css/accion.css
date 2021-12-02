@@ -1,0 +1,216 @@
+/*BODY*/
+
+body{
+    
+    background-color: rgb(179, 129, 192);
+}
+
+
+
+/*HEADER/NAV*/
+
+.logo {
+    width: 70px;
+    align-self: center;
+    
+}
+.contenedor-header {
+    background-color: rgb(159, 88, 177);
+    padding: 0px;
+}
+.navegacion{
+    width: 1500px;
+    display: flex;
+
+}
+.inicio {
+    padding: 30px;
+}
+.barra-navegacion{
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+    font-size: 25px;
+    padding: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    margin: 15px;
+}
+
+.container-fluid :visited{
+    color: black;
+    text-decoration: none;
+}
+.barra-navegacion:hover{
+    background-color: rgb(117, 62, 131);
+    transition: .5s;
+}
+.barra-navegacion:active{
+    background-color: rgb(57, 27, 65);
+    transition: 0.5s;
+}
+
+.entradas a{
+    text-decoration: none;
+    color: black;
+}
+.form-control{
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 300px;
+}
+
+.btn-nav{
+    margin-top: 20px;
+    background-color: rgb(117, 62, 131);
+    color: white;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 20px;
+    border: transparent;
+    border-radius: 10px;
+    height: 50px;
+}
+.btn-nav:hover{
+    background-color: rgb(57, 27, 65);
+    border: transparent;
+    color: white;
+}
+.btn-nav:focus{
+    background-color: rgb(57, 27, 65);
+    border: transparent;
+    color: white;
+    box-shadow: none;
+}
+
+
+
+
+
+/*MAIN*/
+
+.contenedor-main{
+    height: 800px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 325px;
+    height: 700px;
+    background-color:rgb(159, 88, 177);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.card-img-top{
+    width: 300px;
+    height: 425px;
+}
+.card-title{
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: black;
+    font-size: 30px;
+}
+.card-text{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+.btn{
+    background-color: rgb(117, 62, 131);
+    color: white;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 20px;
+    border: transparent;
+}
+
+.btn:hover{
+    background-color: rgb(57, 27, 65);
+    border: transparent;
+    color: white;
+}
+.btn:focus{
+    background-color: rgb(57, 27, 65);
+    border: transparent;
+    color: white;
+    box-shadow: none;
+}
+
+
+
+
+
+
+/*ASIDE*/
+
+.sidebar{
+    width: 30%;
+    float: right;
+    margin-top: 40px;
+}
+.entradas{
+    font-size: 20px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    margin-left: 20px;
+}
+
+
+
+
+/*FOOTER*/
+
+.footer{
+    clear: both; 
+    background-color: rgb(159, 88, 177);
+    padding-top: 40px;
+    height: 250px;
+    margin-top: 30px;
+    color: black;
+    float: left;
+   
+}
+.footer h2{
+    color: rgb(2,22,65);
+    margin-bottom: 15px;
+}
+
+.footer a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+}
+.footer-contenedor{
+    display: flex;
+    justify-content: space-between;
+    width: 1900px;
+
+}
+
+.footer .nosotros{
+    width: 1200px;
+    margin-left: 15px;
+}
+
+.nosotros p{
+    font-size: 20px;
+}
+
+.footer .menu{
+    text-align: right;
+    margin-right: 15px;
+}
+
+.copyright{
+    background-color: rgb(117, 62, 131);
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom:10px;
+    padding-top:10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
